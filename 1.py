@@ -10,7 +10,7 @@ df = pd.read_csv(csv_filename)
 df_sorted = df.sort_values(by='Views', ascending=False)
 
 # Streamlit App
-st.title("(Kamal)---Music")
+st.title("(Sachin's Fav Music)---Music")
 
 # Music player
 selected_song = st.selectbox("Select a song to play:", df_sorted['Title'])
